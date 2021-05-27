@@ -19,6 +19,9 @@ public class Day02_VerifyTitleTest {
     //3.Verify (expected vs actual) if google title is “google”
         String expected= "google";
         String actual= driver.getTitle();
+        //getTitle(); -> Returns the title of the page AS STRING
+        //TESTERS DO NOT WRITE A TEST TO PASS
+        //TESTERS WRITE A TEST TO CATCH A DEFECT/BUG
         if(expected.equals(actual)){
             System.out.println("PASS");
         }else{
